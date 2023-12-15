@@ -1,11 +1,11 @@
 {
-    "name": "jason/test",
+    "name": "jasonxu/test",
     "description": "composer test",
     "type": "library",
     "license": "mit",
     "autoload": {
         "psr-4": {
-            "Jason\\Test\\": "src/"
+            "JasonXu\\Test\\": "src/"
         }
     },
     "authors": [
