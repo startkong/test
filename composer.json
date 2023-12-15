@@ -3,9 +3,12 @@
     "description": "composer test",
     "type": "library",
     "license": "mit",
+    "require": {
+        "php": ">=7.0.0",
+    },
     "autoload": {
         "psr-4": {
-            "JasonXu\\Test\\": "src/"
+            "JasonXu\\Test\\": "src/Test"
         }
     },
     "authors": [
@@ -13,6 +16,5 @@
             "name": "xuheng"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {}
+    "minimum-stability": "dev"
 }
